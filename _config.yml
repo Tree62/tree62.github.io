@@ -39,7 +39,7 @@ address:
   # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Tree62 is een grafisch ontwerpbureau in Amsterdam. Wij zijn gespecialiseerd in het ontwerpen van websites, drukwerk en hele huisstijlen.'
+credits: 'Tree62 is een grafisch ontwerpbureau uit Amsterdam. Wij zijn gespecialiseerd in het ontwerpen van websites, drukwerk en hele huisstijlen.'
 
 # Build settings
 markdown: kramdown
