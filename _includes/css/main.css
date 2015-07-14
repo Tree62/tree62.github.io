@@ -85,6 +85,10 @@ header {
     background: #{{ site.color.primary }};
 }
 
+header .img-responsive {
+  max-width: 300px;
+}
+
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
