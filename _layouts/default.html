@@ -4,17 +4,16 @@
     <body id="page-top" class="index">
     {% include nav.html %}
     {% include header.html %}
+    {% include intro.html %}
     {% include portfolio_grid.html %}
-    {% include about.html %}
-
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
 
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#post-images-slider').bxSlider();
+        });
+    </script>
     </body>
 </html>

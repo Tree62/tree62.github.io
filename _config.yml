@@ -3,6 +3,8 @@ title: Tree62
 email: info@tree62.nl
 url: http://tree62.github.io
 description: "Tree62 is een grafisch ontwerpbureau in Amsterdam. Wij zijn gespecialiseerd in het ontwerpen van websites, drukwerk en hele huisstijlen."
+intro_text: "Tree62 is cool. En jij kan dat ook zijn."
+intro_second_text: "We houden van ontwerp. Heel veel. Tree62 is een grafisch ontwerpbureau in Amsterdam. Wij zijn gespecialiseerd in het ontwerpen van websites, drukwerk en hele huisstijlen."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -35,7 +37,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Amsterdam
+  - line: Tree62
+  - line: Linnaeusstraat 251 4
+  - line: 1093 ER - Amsterdam
+  - line:
+  - line: KvK 62007025
   # - line: Beverly Hills, CA 90210
 
 # Credits content

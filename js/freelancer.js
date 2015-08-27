@@ -35,3 +35,16 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(function() {
+    $('#intro-show-more').on('click', function() {
+        $('div#intro-text').animate({
+            'height': '500px',
+            'opacity': 1
+        }, 400, function() {
+            $('#intro-second-text').animate({
+                'opacity': 1
+            }, 200);
+        })
+    });
+});

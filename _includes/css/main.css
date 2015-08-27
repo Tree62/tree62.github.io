@@ -85,6 +85,30 @@ header {
     background: #{{ site.color.primary }};
 }
 
+div#intro-text {
+    text-align: center;
+    color: #fff;
+    background: url("/img/noisy-texture-300x300-o3-d18-c-0E506A-t0.png") repeat;
+}
+
+div#intro-text h1, h2, h3, h4 {
+    font-weight: 100;
+}
+
+div#intro-text #intro-second-text {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+    font-size: 18pt;
+}
+
+div#intro-text  .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
 header .img-responsive {
   max-width: 300px;
 }
@@ -331,6 +355,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    background: url("/img/noisy-texture-300x300-o3-d18-c-0E506A-t0.png") repeat;
 }
 
 footer h3 {
@@ -339,11 +364,15 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
 }
 
-footer .footer-col {
-    margin-bottom: 50px;
+
+.footer-above .footer-col p {
+    font-size: 0.8em;
+}
+
+.footer-above .footer-col img {
+    height: 20px;
 }
 
 footer .footer-below {
@@ -405,9 +434,13 @@ footer .footer-below {
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+#post-images-slider {
+    position: relative; overflow: auto;
 }
+
+#post-images-slider li {list-style: none;}
+
+#post-images-slider ul li { float: left; }
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
