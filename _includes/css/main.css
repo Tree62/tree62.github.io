@@ -488,3 +488,13 @@ footer .footer-below {
 .bx-viewport > #post-images-slider > li {
     width: 700px !important;
 }
+
+@media(max-width:500px) {
+    .bx-viewport {
+        height: 200px !important;
+    }
+
+    .bx-viewport > #post-images-slider > li {
+        width: 250px !important;
+    }
+}
