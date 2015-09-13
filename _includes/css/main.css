@@ -480,3 +480,11 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.bx-viewport {
+    height: 500px !important;
+}
+
+.bx-viewport > #post-images-slider > li {
+    width: 700px !important;
+}
