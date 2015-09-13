@@ -4,6 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// Email obfusticate
+$(function() {
+    $('#email-field').html(function(){
+        var e = "info";
+        var a = "@";
+        var d = "tree62";
+        var c = ".nl";
+        var h = 'mailto:' + e + a + d + c;
+        $(this).parent('a').attr('href', h);
+        return '';
+    });
+});
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
